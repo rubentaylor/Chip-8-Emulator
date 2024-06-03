@@ -13,6 +13,11 @@ private:
     unsigned char delay_timer;
     unsigned char sound_timer;
 
+    unsigned short stack[16]; 
+    unsigned short stack_pointer; // stack pointer
+
+    unsigned char key[16]; // hex based keypad
+
 public:
     Chip8();
     ~Chip8();
