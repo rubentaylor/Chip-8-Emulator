@@ -1,4 +1,6 @@
 #include "Chip-8.h"
+#include <iostream>
+#include <GL/gl.h>
 Chip8 chip;
 
 int main(int argc, char **argv) {
